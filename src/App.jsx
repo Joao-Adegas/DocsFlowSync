@@ -176,7 +176,7 @@ function App() {
       <footer>
         <div className="top-footer">
           <figure>
-            <img src="../logo.png" alt="logo-footer" className="logo-footer" />
+            <img src="../Logo.png" alt="logo-footer" className="logo-footer" />
           </figure>
 
           <div className="links-footer">
