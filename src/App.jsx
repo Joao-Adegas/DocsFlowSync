@@ -7,7 +7,7 @@ function App() {
       <header>
         <div className="top-header" id="inicio">
           <figure>
-            <img src="../public/Logo.png" alt="logo-img" className="logo-header" />
+            <img src="../Logo.png" alt="logo-img" className="logo-header" />
           </figure>
         </div>
 
@@ -23,7 +23,7 @@ function App() {
       <main>
         <section className="top-main">
           <div className="img-mascote-container">
-            <img src="../public/mascote.png" alt="mascote" className="mascote" />
+            <img src="../mascote.png" alt="mascote" className="mascote" />
           </div>
           <div className="slogan">
             <p>Onde <span className="palavra-destaque">inovação</span> e <span className="palavra-destaque">automação</span> se encontram para <span className="palavra-destaque">organizar</span> eventos <div className="palavra-destaque">perfeitos.</div></p>
@@ -46,7 +46,7 @@ function App() {
           </div>
           <div className="container-imagens">
             <figure>
-              <img src="../public/Banner1.png" alt="banner" className="banner1" />
+              <img src="../Banner1.png" alt="banner" className="banner1" />
             </figure>
             <figure>
               <video src="../Gif.MP4" autoPlay loop playsInline/>
@@ -57,19 +57,19 @@ function App() {
         <section className="cards-beneficios">
           <div className="card">
             <figure className="imagem-card-container">
-              <img src="../public/event 1.png" alt="" className="imagem-card" />
+              <img src="../event 1.png" alt="" className="imagem-card" />
             </figure>
             <p>Organize eventos de forma ágil e fácil</p>
           </div>
           <div className="card">
             <figure className="imagem-card-container">
-              <img src="../public/calendar (2) 1.png" alt="" className="imagem-card" />
+              <img src="../calendar (2) 1.png" alt="" className="imagem-card" />
             </figure>
             <p>Crie e organize agendas com mais facilidade</p>
           </div>
           <div className="card">
             <figure className="imagem-card-container">
-              <img src="../public/mail 1.png" alt="" className="imagem-card" />
+              <img src="../mail 1.png" alt="" className="imagem-card" />
             </figure>
             <p>Envie emails automáticos com a ajuda da IA</p>
           </div>
@@ -88,7 +88,7 @@ function App() {
 
             <div className="container-img-about">
               <figure>
-                <img src="../public/mascote.png" alt="mascote-img" className="mascote-img" />
+                <img src="../mascote.png" alt="mascote-img" className="mascote-img" />
               </figure>
             </div>
           </div>
@@ -115,7 +115,7 @@ function App() {
           <div className="col-top">
             <div className="container-img-dev">
               <figure>
-                <img src="../public/Evelyn.png" alt="img-dev-Evelyn" className="img-devs"/>
+                <img src="../Evelyn.png" alt="img-dev-Evelyn" className="img-devs"/>
               </figure>
               <p>Evellyn Sene</p>
               <p>Front-End</p>
@@ -123,7 +123,7 @@ function App() {
 
             <div className="container-img-dev">
               <figure>
-                <img src="../public/Joao.png" alt="img-dev-Joao" className="img-devs"/>
+                <img src="../Joao.png" alt="img-dev-Joao" className="img-devs"/>
               </figure>
               <p>João Adegas</p>
               <p>Fullstack</p>
@@ -131,7 +131,7 @@ function App() {
 
             <div className="container-img-dev">
               <figure>
-                <img src="../public/Livia.png" alt="img-dev-Livia" className="img-devs"/>
+                <img src="../Livia.png" alt="img-dev-Livia" className="img-devs"/>
               </figure>
               <p>Livia Melo</p>
               <p>UIxUX</p>
@@ -141,7 +141,7 @@ function App() {
           <div className="col-bottom">
             <div className="container-img-dev">
               <figure>
-                <img src="../public/Duda.png" alt="img-dev-Duda" className="img-devs"/>
+                <img src="../Duda.png" alt="img-dev-Duda" className="img-devs"/>
               </figure>
               <p>Maria Lima</p>
               <p>Front-End</p>
@@ -149,7 +149,7 @@ function App() {
 
             <div className="container-img-dev">
               <figure>
-                <img src="../public/Thifany.png" alt="img-dev-Thifany" className="img-devs"/>
+                <img src="../Thifany.png" alt="img-dev-Thifany" className="img-devs"/>
               </figure>
               <p>Thifany Oliveira</p>
               <p>Fullstack</p>
@@ -157,7 +157,7 @@ function App() {
 
             <div className="container-img-dev">
               <figure>
-                <img src="../public/Yngrid.png" alt="img-dev-Yngrid" className="img-devs"/>
+                <img src="../Yngrid.png" alt="img-dev-Yngrid" className="img-devs"/>
               </figure>
               <p>Yngrid Baeta</p>
               <p>Fullstack</p>
@@ -176,7 +176,7 @@ function App() {
       <footer>
         <div className="top-footer">
           <figure>
-            <img src="../public/logo.png" alt="logo-footer" className="logo-footer" />
+            <img src="../logo.png" alt="logo-footer" className="logo-footer" />
           </figure>
 
           <div className="links-footer">
