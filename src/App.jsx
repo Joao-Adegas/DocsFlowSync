@@ -172,7 +172,7 @@ function App() {
 
         </section>
       </main>
-      _
+      
       <footer>
         <div className="top-footer">
           <figure>
