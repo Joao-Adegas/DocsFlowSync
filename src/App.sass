@@ -22,6 +22,9 @@ header
     align-items: center
     background: var(--degrade)
 
+    @media (max-width: 1260px)
+        justify-content: center
+
     .top-header
         padding: 1rem
 
@@ -29,9 +32,16 @@ header
             margin-left: 1rem
             width: 10rem
 
+            @media (max-width: 1260px)
+                width: 15rem
+
     .navigation
         width: 17rem
         padding: 1rem
+
+        @media (max-width: 1260px)
+            display: none
+
         ul
             display: flex
             justify-content: space-between
@@ -111,6 +121,11 @@ main
             gap: 1rem
             justify-content: center
 
+            @media (max-width: 1260px)
+                width: 40rem
+                text-align: center
+                font-size: 1.2rem
+
             .btn-saiba-mais
                 width: 30rem
                 background-color: var(--cor-container)
@@ -130,6 +145,7 @@ main
 
             .frase
                 color: var(--cor-texto-preto)
+                    
 
         .container-imagens
             padding: 1rem
@@ -236,6 +252,9 @@ main
                 width: auto
                 height: 20rem
 
+                @media (max-width: 1260px)
+                    height: 15rem
+
     .devs
         display: flex
         flex-wrap: wrap
@@ -246,6 +265,7 @@ main
         padding: 2rem
 
         @media (max-width: 1260px)
+            text-align: center
             gap: 1rem
 
             .link-dowload
