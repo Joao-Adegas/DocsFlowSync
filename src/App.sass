@@ -1,30 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-    
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
 *
-    margin:0
+    margin: 0
     padding: 0
     box-sizing: border-box
     font-family: 'Poppins'
     scroll-behavior: smooth
 
-    
 :root
-    --cor-texto:#ffffff
-    --cor-destaque-texto:#69F0F0
-    --cor-container:#0B426A
-    --cor-destaque-logo:#FF0000
-    --cor-placeholder:#6A6A6A
-    --cor-texto-preto:#000000
-    --degrade:linear-gradient(115deg,#01070B 26%,#01070B 46%,#06243A 84%,#0B426A 100%) 
-
-
+    --cor-texto: #ffffff
+    --cor-destaque-texto: #69F0F0
+    --cor-container: #0B426A
+    --cor-destaque-logo: #FF0000
+    --cor-placeholder: #6A6A6A
+    --cor-texto-preto: #000000
+    --degrade: linear-gradient(115deg,#01070B 26%,#01070B 46%,#06243A 84%,#0B426A 100%)
 
 header
     display: flex
     justify-content: space-between
     align-items: center
     background: var(--degrade)
-
 
     .top-header
         padding: 1rem
@@ -51,38 +47,42 @@ header
 
 main
     .top-main
+        display: flex
+        gap: 6rem
+        font-weight: 200
+        justify-content: center
+        align-items: center
+        background: linear-gradient(115deg,#01070B 20%,#01070B 43%,#06243A 78%,#0B426A 93%) 
+        color: var(--cor-texto)
+        font-size: 1.4rem
+
+        @media (max-width: 1260px)
+            flex-direction: column
+            text-align: center
+
+        .slogan
             display: flex
-            gap: 6rem
-            font-weight: 200
-            justify-content: center
-            align-items: center
-            background: linear-gradient(115deg,#01070B 20%,#01070B 43%,#06243A 78%,#0B426A 93%) 
-            color: var(--cor-texto)
-            font-size: 1.4rem
+            flex-direction: column
+            gap: 1rem
+            width: 30rem
+            padding: 1rem
 
-            .slogan
-                display: flex
-                flex-direction: column
-                gap: 1rem
-                width: 30rem
-                padding: 1rem
+            .linha
+                width: 20rem
+                height: 6px
+                background-color: var(--cor-texto)
 
-                .linha
-                    width: 20rem
-                    height: 6px
-                    background-color: var(--cor-texto)
-
-                .subtitulo
-                    padding-top: 1rem
-                    font-size: 1rem
+            .subtitulo
+                padding-top: 1rem
+                font-size: 1rem
 
                 .palavra-destaque
                     color: var(--cor-destaque-texto)
                     font-weight: 400
 
-            .mascote
-                width: 25rem
-    
+        .mascote
+            width: 25rem
+
     .section-2
         display: flex
         justify-content: center
@@ -116,17 +116,16 @@ main
                 background-color: #AEB7BD
                 border-radius: 1rem
                 height: 5px
-            
+
             .frase
                 color: var(--cor-texto-preto)
 
         .container-imagens
             padding: 1rem
 
-
             .banner1,.video
                 width: 27.6rem
-    
+
     .cards-beneficios
         display: flex
         justify-content: space-evenly
@@ -143,14 +142,14 @@ main
             display: flex
             justify-content: center
             flex-direction: column
-            border: 2px solid 
+            border: 2px solid
             border-radius: 2rem
 
             .imagem-card-container
                 width: auto
                 .imagem-card
                     height: 10rem
-    
+
     .about
         background-color: var(--cor-container)
         margin-top: 5rem
@@ -209,7 +208,7 @@ main
             .video-pitch
                 width: auto
                 height: 20rem
-    
+
     .devs
         display: flex
         flex-wrap: wrap
@@ -221,7 +220,7 @@ main
 
         .title-devs
             font-size: 2rem
-        
+
         .col-top
             display: flex
             gap: 4rem
@@ -231,11 +230,11 @@ main
                 flex-direction: column
                 justify-content: center
                 align-items: center
-                
+
                 .img-devs
                     width: 15rem
 
-        .col-bottom      
+        .col-bottom
             display: flex
             gap: 10rem
 
@@ -244,11 +243,10 @@ main
                 flex-direction: column
                 justify-content: center
                 align-items: center
-                
+
                 .img-devs
                     width: 15rem
 
-    
 footer
     display: flex
     flex-direction: column
@@ -270,13 +268,12 @@ footer
             justify-content: center
             align-items: center
             padding: 1rem
-            
 
             .link
                 width: 10rem
                 color: var(--cor-texto)
                 text-decoration: none
-    
+
     .container-copyright
         font-size: 1rem
         display: flex
