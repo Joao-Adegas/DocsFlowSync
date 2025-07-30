@@ -117,24 +117,24 @@ function App() {
               <figure>
                 <img src="../Evelyn.png" alt="img-dev-Evelyn" className="img-devs"/>
               </figure>
-              <p>Evellyn Sene</p>
-              <p>Front-End</p>
+              <p className="nameDev">Evellyn Sene</p>
+              <p className="skillDev">Front-End</p>
             </div>
 
             <div className="container-img-dev">
               <figure>
                 <img src="../Joao.png" alt="img-dev-Joao" className="img-devs"/>
               </figure>
-              <p>João Adegas</p>
-              <p>Fullstack</p>
+              <p className="nameDev">João Adegas</p>
+              <p className="skillDev">Fullstack</p>
             </div>
 
             <div className="container-img-dev">
               <figure>
                 <img src="../Livia.png" alt="img-dev-Livia" className="img-devs"/>
               </figure>
-              <p>Livia Melo</p>
-              <p>UIxUX</p>
+              <p className="nameDev">Livia Melo</p>
+              <p className="skillDev">UIxUX</p>
             </div>
           </div>
 
@@ -143,30 +143,30 @@ function App() {
               <figure>
                 <img src="../Duda.png" alt="img-dev-Duda" className="img-devs"/>
               </figure>
-              <p>Maria Lima</p>
-              <p>Front-End</p>
+              <p className="nameDev">Maria Lima</p>
+              <p className="skillDev">Front-End</p>
             </div>
 
             <div className="container-img-dev">
               <figure>
                 <img src="../Thifany.png" alt="img-dev-Thifany" className="img-devs"/>
               </figure>
-              <p>Thifany Oliveira</p>
-              <p>Fullstack</p>
+              <p className="nameDev">Thifany Oliveira</p>
+              <p className="skillDev">Fullstack</p>
             </div>
 
             <div className="container-img-dev">
               <figure>
                 <img src="../Yngrid.png" alt="img-dev-Yngrid" className="img-devs"/>
               </figure>
-              <p>Yngrid Baeta</p>
-              <p>Fullstack</p>
+              <p className="nameDev">Yngrid Baeta</p>
+              <p className="skillDev">Fullstack</p>
             </div>
           </div>
 
 
           <div id="docs">
-            <a href="../src/docs/hackathon_documentacao.pdf" download>Download da documentação (.pdf)</a>
+            <a href="../src/docs/hackathon_documentacao.pdf" className="link-dowload" download>Download da documentação (.pdf)</a>
           </div>
           
 
@@ -180,7 +180,7 @@ function App() {
           </figure>
 
           <div className="links-footer">
-            <a href="#inicio" className="link">Inicio</a>
+            <a href="#inicio" className="link">Início</a>
             <a href="#about-team" className="link">Sobre Nós</a>
             <a href="#docs" className="link">Documentação</a>
             <a href="#sobre-o-projeto" className="link">Sobre o Projeto</a>
