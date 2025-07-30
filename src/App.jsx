@@ -42,7 +42,7 @@ function App() {
               <span className="destaque-logo">FlowSync</span>
             </div>
             <hr className="hr-section2" />
-            <button className="btn-saiba-mais">Saiba Mais</button>
+            {/* <button className="btn-saiba-mais">Saiba Mais</button> */}
           </div>
           <div className="container-imagens">
             <figure>
