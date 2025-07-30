@@ -32,6 +32,12 @@ function App() {
               Gestão <span className="palavra-destaque">Automatica,</span> Resultados <span className="palavra-destaque">Reais</span>
             </p>
           </div>
+
+          <div id="docs" className="documentacao">
+            <a href="../src/docs/hackathon_documentacao.pdf" className="link-dowload" download>Acesse a documentação</a>
+            <img src="../downloads.png" alt="seta" className="imagem-download"/>
+          </div>
+          
         </section>
 
         <section className="section-2">
@@ -163,12 +169,6 @@ function App() {
               <p className="skillDev">Fullstack</p>
             </div>
           </div>
-
-
-          <div id="docs">
-            <a href="../src/docs/hackathon_documentacao.pdf" className="link-dowload" download>Download da documentação (.pdf)</a>
-          </div>
-          
 
         </section>
       </main>

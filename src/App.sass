@@ -58,7 +58,7 @@ header
 main
     .top-main
         display: flex
-        gap: 6rem
+        gap: 3rem
         font-weight: 200
         justify-content: center
         align-items: center
@@ -113,6 +113,27 @@ main
 
             @media (max-width: 480px)
                 width: 15rem
+
+        .documentacao
+            display: flex
+            gap: 0.8rem
+            align-items: center
+            border: 1.3px solid white
+            border-radius: 0.6rem
+            padding: 0.7rem
+            margin-bottom: 2rem
+
+            .imagem-download
+                width: 1.5rem
+
+            .link-dowload
+                font-size: 1rem
+                text-decoration: none 
+                color: white
+                
+
+                @media (max-width: 480px)
+                    font-size: 0.95rem
 
     .section-2
         display: flex
@@ -331,11 +352,6 @@ main
             text-align: center
             gap: 1rem
 
-            .link-dowload
-                font-size: 1.5rem
-
-                @media (max-width: 480px)
-                    font-size: 1rem
 
         .title-devs
             font-size: 2rem
