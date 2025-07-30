@@ -49,7 +49,7 @@ function App() {
               <img src="../Banner1.png" alt="banner" className="banner1" />
             </figure>
             <figure>
-              <video src=".\Gif.MP4" autoPlay loop playsInline/>
+              <video src="/Gif.MP4" autoPlay loop muted playsInline />
             </figure>
           </div>
         </section>
