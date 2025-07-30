@@ -37,7 +37,7 @@ function App() {
         <section className="section-2">
 
           <div className="frase-efeito">
-            <div>
+            <div className="container-frase">
               <p className="frase">Organize eventos com agilidade, focando no que realmente importa: a experiência dos participantes</p>
               <span className="destaque-logo">FlowSync</span>
             </div>
@@ -49,7 +49,7 @@ function App() {
               <img src="../Banner1.png" alt="banner" className="banner1" />
             </figure>
             <figure>
-              <video src="/Gif.MP4" autoPlay loop muted playsInline />
+              <video src="/Gif.MP4" autoPlay loop muted playsInline className="video"/>
             </figure>
           </div>
         </section>

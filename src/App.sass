@@ -81,6 +81,11 @@ main
                 justify-content: center
                 align-items: center
 
+            @media (max-width: 480px)
+                padding: 1.5rem
+                width: 20rem
+                font-size: 1rem
+
             .linha
                 width: 20rem
                 height: 4px
@@ -128,6 +133,9 @@ main
                 text-align: center
                 font-size: 1.2rem
 
+            @media (max-width: 480px)
+                width: 30rem
+
             .btn-saiba-mais
                 width: 30rem
                 background-color: var(--cor-container)
@@ -137,6 +145,9 @@ main
                 outline: none
                 border-radius: 5rem
                 font-size: 1.1rem
+
+                @media (max-width: 480px)
+                    width: 10rem
 
             .hr-section2
                 max-width: 35rem
@@ -150,13 +161,25 @@ main
 
             .frase
                 color: var(--cor-texto-preto)
+
+                @media (max-width: 480px)
+                    font-size: 1rem
                     
 
         .container-imagens
             padding: 1rem
 
+            @media (max-width: 480px)
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+
             .banner1,.video
                 width: 27.6rem
+
+                @media (max-width: 480px)
+                    width: 20rem
 
     .cards-beneficios
         display: flex
@@ -186,6 +209,9 @@ main
                 .imagem-card
                     height: 10rem
 
+                    @media (max-width: 480px)
+                        height: 5rem
+
     .about
         background-color: var(--cor-container)
         margin-top: 5rem
@@ -195,12 +221,14 @@ main
         flex-direction: column
         justify-content: center
         align-items: center
-            
 
         .title
             padding: 1rem
             font-size: 2.5rem
             font-weight: 500
+
+            @media (max-width: 480px)
+                font-size: 2rem
 
         .container
             display: flex
@@ -215,11 +243,18 @@ main
                 padding: 2rem
                 font-size: 1.2rem
 
+                @media (max-width: 480px)
+                    width: 20rem
+                    font-size: 0.9rem
+
         .container-img-about
             width: auto
 
             .mascote-img
                 width: 30rem
+
+                @media (max-width: 480px)
+                    width: 15rem
 
     .about-team
         padding: 3rem
@@ -249,9 +284,14 @@ main
                 @media (max-width: 1260px)
                     font-size: 1.5rem
 
+                @media (max-width: 480px)
+                    font-size: 1rem
+
+
                 .destaque-texto-about
                     color: var(--cor-container)
                     font-weight: 500
+
 
             .video-pitch
                 width: auto
@@ -275,6 +315,9 @@ main
 
             .link-dowload
                 font-size: 1.5rem
+
+                @media (max-width: 480px)
+                    font-size: 1rem
 
         .title-devs
             font-size: 2rem
@@ -307,6 +350,9 @@ main
 
                     @media (max-width: 1260px)
                         width: 21rem         
+                    
+                    @media (max-width: 480px)
+                        width: 15rem
 
         .col-bottom
             display: flex
@@ -333,6 +379,9 @@ main
 
                     @media (max-width: 1260px)
                         width: 21rem
+
+                    @media (max-width: 480px)
+                        width: 15rem
 
 footer
     display: flex
@@ -368,6 +417,9 @@ footer
                 text-align: center
                 font-size: 1.3rem
                 gap: 1rem
+
+            @media (max-width: 480px)
+                display: none
 
             .link
                 width: 10rem
