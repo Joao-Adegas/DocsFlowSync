@@ -34,7 +34,7 @@ function App() {
           </div>
 
           <div id="docs" className="documentacao">
-            <a href="/docs/hackathon_documentacao.pdf" className="link-dowload" download>Acesse a documentação</a>
+            <a href="/src/docs/hackathon_documentacao.pdf" className="link-dowload" download={"FlowSync_Documentacao.pdf"}>Acesse a documentação</a>
             <img src="../downloads.png" alt="seta" className="imagem-download"/>
           </div>
           
@@ -48,7 +48,6 @@ function App() {
               <span className="destaque-logo">FlowSync</span>
             </div>
             <hr className="hr-section2" />
-            {/* <button className="btn-saiba-mais">Saiba Mais</button> */}
           </div>
           <div className="container-imagens">
             <figure>
