@@ -33,10 +33,14 @@ function App() {
             </p>
           </div>
 
-          <div id="docs" className="documentacao">
-            <a href="/hackathon_documentacao.pdf" className="link-dowload" download>Acesse a documentação</a>
-            <img src="../downloads.png" alt="seta" className="imagem-download"/>
-          </div>
+          <a 
+            href="/hackathon_documentacao.pdf" 
+            download="FlowSync_Documentacao.pdf"
+            className="link-download"
+          >
+            Acesse a documentação
+          </a>
+
           
         </section>
 
