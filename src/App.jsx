@@ -36,7 +36,8 @@ function App() {
           <a 
             href="/hackathon_documentacao.pdf" 
             download="FlowSync_Documentacao.pdf"
-            className="link-download"
+            className="link-dowload"
+            id="#docs"
           >
             Acesse a documentação
           </a>
